@@ -1,0 +1,263 @@
+body {
+	margin: 0 0 0 0;
+	padding: 0;
+	
+	min-width: 15em;
+	max-width: 60em;
+	
+	margin: 0 auto 0 auto;
+	padding: 0 1em;
+	
+	font-family: Arial, Verdana, Calibri, sans-serif;
+	
+	background-color: /*rgb(255,255,200)/* Color 1 */ /*rgb(75,255,75)/* Color 2 */ rgb(83,232,23)/* Color 3 */;
+}
+
+input[type=text], input[type=password], input[type=submit], button, textarea {
+	padding: 0.5em;
+	background-color: rgba(220,220,220,0.75);
+	border: none;
+	
+	border-bottom: 1px rgba(0,0,0,0);
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=submit]:focus, textarea:focus, button:focus {
+	background-color: white;
+}
+
+textarea.fill {
+	width: 100%;
+}
+
+fieldset {
+	border: none;
+	margin: 0.1em 0;
+	padding: 0;
+}
+
+.option input[type=checkbox] {
+	margin: 0 -0.1em;
+	padding: 0;
+}
+
+.option, .option * {
+	cursor: pointer;
+}
+
+/*.option input[type=checkbox]~* {
+	background-color: rgba(255,0,0,0.75);
+}
+
+.option input[type=checkbox]:checked~* {
+	background-color: rgba(0,255,0,0.75);
+}
+
+.option input[type=checkbox] {
+	display: none;
+}*/
+
+.error {
+	background-color: rgb(255,100,0);
+	margin: 1em -1em;
+	padding: 1em;
+	
+	font-weight: bold;
+	font-style: italic;
+}
+
+.success {
+	background-color: rgb(100,255,0);
+	margin: 1em -1em;
+	padding: 1em;
+	
+	font-weight: bold;
+	font-style: italic;
+}
+
+div#cnt h1 {
+	padding: 0.5em 0.5em;
+	margin: 0.5em -0.5em 1em -0.5em;
+	background-color: rgb(255,100,0);
+	
+	font-family: "Yanone Kaffeesatz", Courier New, sans-serif;
+	letter-spacing: -0.05em;
+	text-shadow: none;
+}
+
+h1 span.description, h2 span.description {
+	font-size: 0.5em;
+}
+
+a[href], a.clickable {
+	color: rgb(85,85,00);
+	
+	transition: color 0.5s;
+	webkit-transition: color 0.5s;
+	
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a[href]:hover {
+	color: rgb(0,0,00);
+	
+	transition: color 0.5s;
+	webkit-transition: color 0.5s;
+}
+
+div#top-logo {
+	
+	margin: 0 -1em;
+	
+	background-color: rgba(255,100,0,0.1);
+	
+	/*float: left;/**/
+	
+	/*background-color: rgb(200,200,200);*/
+}
+
+div#top-logo {
+	text-align: right;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	color: rgb(200,100,0);
+}
+
+div#top-logo span {
+	padding: 2%;
+}
+
+ul#nav {
+	margin: 0 -1em;
+	padding: 0 0em;
+	
+	background-color: rgba(255,100,0,0.1);
+	box-shadow: 0 -6px 6px -10px inset;
+}
+
+ul#nav>li {
+	font-size: 0.8em;
+	
+	display: inline-block;
+	
+	padding: 0.75em 0;
+	margin: 0.25em 0 0.25em 0;
+}
+
+ul#nav>li>a {
+	text-decoration: none;
+	color: black;
+	padding: 1em;
+	
+	transition: background-color 0.25s;
+	webkit-transition: background-color 0.25s;
+}
+
+ul#nav>li>ul.dropdown {
+	visibility: hidden;
+}
+
+ul#nav>li>a:hover {
+	background-color: rgba(255,100,0,0.5);
+	
+	transition: background-color 0.25s;
+	webkit-transition: background-color 0.25s;
+	
+	box-shadow: 0 8px 6px -10px;
+	
+	transition: box-shadow 0.5s;
+	webkit-transition: box-shadow 0.5s;
+}
+
+ul#nav>li>a:hover+ul.dropdown {
+	visibility: visible;
+}
+
+ul#nav>li>a {
+}
+
+ul#nav>li.active {
+}
+
+ul#nav>li.active>a {
+	z-index: 1000;
+	background-color: rgba(255,100,0,1);
+	
+	box-shadow: 0 8px 6px -10px;
+}
+
+div#top-cnt-separator {
+	clear: both;
+}
+
+div#cnt {
+	margin: 1em 0;
+	padding: 1em 0;
+	
+	text-shadow: rgba(200,200,200, 0.5) 0.1em 0.1em 0em;
+	font-family: Arial, Georgia;
+	
+	/*border: 1px solid rgba(200,200,200,0.5);/**/
+}
+
+div#social {
+	float: right;
+	
+	margin: 0 -1.375em;
+}
+
+div.social-button, a.button {
+	margin: 0.5em;
+	padding: 0.5em;
+	display: inline-block;
+	background-color: /*rgb(175,175,255)/*Color 1*/ rgb(75,75,255)/*Color 2*/;
+	
+	font-size: 0.75em;
+	min-width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	
+	transition: background-color 0.5s, color 0.5s, padding ease-in-out 0.5s, margin ease-in-out 0.5s;
+	webkit-transition: background-color 0.5s, color 0.5s, padding ease-in-out 0.5s, margin ease-in-out 0.5s;
+	
+	text-shadow: none;
+}
+
+a.button {
+	margin: -1em 0 0 0;
+	padding: 1em;
+	transition: none;
+	webkit-transition: none;
+	
+	font-family: Arial, Verdana, Calibri, sans-serif;
+}
+
+a.button:hover {
+	background-color: /*rgb(125,125,255)/*Color 1*/ rgb(50,50,175)/*Color 2*/;
+	color: white;
+	cursor: pointer;
+	
+	transition: background-color 0.5s, color 0.5s;
+}
+
+div.social-button:hover {
+	background-color: /*rgb(125,125,255)/*Color 1*/ rgb(50,50,175)/*Color 2*/;
+	color: white;
+	cursor: pointer;
+	
+	margin: 0.2em;
+	padding: 0.8em;
+	
+	transition: background-color 0.5s, color 0.5s, padding ease-in-out 0.5s, margin ease-in-out 0.5s;
+	webkit-transition: background-color 0.5s, color 0.5s, padding ease-in-out 0.5s, margin ease-in-out 0.5s;
+}
+
+div#foo {
+	font-size: 0.8em;
+	
+	margin: 0.5em -1em;
+	padding: 0.5em 1em;
+	border-top: 1px solid rgba(255,100,0,0.2);
+	clear: both;
+}

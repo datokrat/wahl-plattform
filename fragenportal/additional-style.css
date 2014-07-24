@@ -1,0 +1,142 @@
+
+
+section#right {
+	float: right;
+	background-color: rgb(0,100,200);
+	text-shadow: none;
+	
+	min-width: 10em; max-width: 20em;
+	
+	padding: 1em;
+	margin: 1em 0.5em 0.5em 0.5em;
+}
+
+#widgets>h1, .widgets>h1 {
+	margin: 0 1em ! important;
+}
+
+section#right h1, div#cnt #widgets .widget h1, div#cnt .widgets .widget h1 {
+	margin: 0.25em 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+section#right h1+ul, .widget h1+ul, ul.primitive-list {
+	padding-left: 1em;
+}
+
+section#right h1+ul>li, .widget h1+ul>li, ul.primitive-list>li {
+	list-style-type: none;
+	padding: 0.25em 0;
+	margin: 0.25em 0;
+}
+
+.tagcloud a {
+	margin: 0 0.5em;
+	transition: color 0.5s;
+	webkit-transition: color 0.5s;
+}
+
+.tagcloud a:before {
+	content: "#";
+}
+
+.tagcloud a:hover:before {
+	color: inherit;
+}
+
+.tagcloud a:hover {
+	color: rgb(200,100,0);
+}
+
+#platform-controls, .widget-controls {
+	margin: 0 -1em 1em 0;
+	text-align: right;
+}
+
+.widget-controls {
+	margin: 0;
+}
+
+#widgets, .widgets {
+	margin: 0 -2em;
+	
+	text-shadow: none;
+	
+	text-align: center;
+}
+
+.widget {
+	text-align: left;
+	vertical-align: top;
+	
+	display: inline-block;
+	padding: 1em;
+	margin: 1em;
+	
+	min-width: 10em;
+	max-width: 27.5em;
+	
+	background-color: /* Color 1 *//*rgb(0,100,200)/**/ /* Color 2 */rgb(0,150,250);
+}
+
+.big.widget, .answer.widget, .question.widget {
+	display: block;
+	max-width: none;
+}
+
+.question.widget {
+	margin-top: -1em;
+	margin-bottom: 1.5em;
+	background-color: rgb(0,175,275);
+	margin-left: 2em;
+}
+
+.answer.widget {
+}
+
+.collapsible>.area {
+	margin: 0.2em;
+	padding: 0.2em;
+	border-left: 2px solid rgba(0,0,0,0.2);
+}
+
+.collapsible[data-collapsed=true]>.area {
+	display: none;
+}
+
+.collapsible>.header
+{
+	font-weight: bold;
+	font-family: "Yanone Kaffeesatz", Courier New, sans-serif;
+	letter-spacing: -0.05em;
+	text-shadow: none;
+	font-size: 1em;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+	cursor: pointer;
+	
+	padding: 0.2em;
+	margin: 0.2em;
+}
+
+.collapsible>.header:before {
+	font-weight: bold;
+	font-size: 1.5em;
+	content: "\2191";
+}
+
+.collapsible[data-collapsed=true]>.header:before {
+	content: "\2193";
+}
+
+img.avatar {
+	max-height: 10em;
+	max-width: 100%;
+}
