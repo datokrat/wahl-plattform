@@ -1,6 +1,8 @@
 wahl-plattform
 ==============
 
+[![Join the chat at https://gitter.im/datokrat/wahl-plattform](https://badges.gitter.im/datokrat/wahl-plattform.svg)](https://gitter.im/datokrat/wahl-plattform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Hier findet sich der Code einer Internetplattform, die zur Kommunalwahl umgesetzt wurde, um mehr Informationen und Bürgernähe zu erreichen. Es lassen sich darin sowohl vorgegebene Fragen stellen als auch das Publikum das tun lassen, die dann von den Kandidaten beantwortet werden.
 
 Scheuen Sie sich nicht, uns bei Fragen sofort anzuschreiben...
